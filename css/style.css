@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../images/header_bg_image.jpg) no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul a{
+    color: #4d4d4d;
+    padding: 20px 30px;
+    display: block;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    background: #515151;
+    color: white;
+}
+.logo{
+    color: #cb0a15;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-contet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+main{
+    max-width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.main-product{
+    max-width: 540px;
+}
+.procts{
+    max-width: 540px;
+}
+.procts section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.procts .about-product{
+    margin-left: 30px;
+}
+h2{
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.main-product h2{
+    margin-top: 60px;
+}
+main p{
+    color: #919191;
+    font-size: 16px;
+    font-family: 'Arial';
+    text-align: justify;
+    line-height: 20px;
+}
+footer{
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+footer .content{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+footer h3 span{
+    color: #cb0a15;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    line-height: 24px;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #818181;
+}
+footer a:hover{
+    color: #cb0a15;
+}
